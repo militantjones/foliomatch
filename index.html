@@ -102,9 +102,9 @@
     </section>
     <footer>
       <ul class="inline pull-right">
-        <li><a href="#"><img src="img/facebook.png" /></a></li>
-        <li><a href="#"><img src="img/twitter.png" /></a></li>
-        <li><a href="#"><img src="img/linkedin.png" /></a></li>
+        <li><a href="#" class="social facebook"></a></li>
+        <li><a href="#" class="social twitter"></a></li>
+        <li><a href="#" class="social linkedin"></a></li>
       </ul>
       <ul class="inline">
         <li><a href="#">home</a></li>
@@ -124,9 +124,8 @@
             $('section.hero').height(($(window).height())-($('.navbar').height())-($('footer').height()));
             $('.carousel-inner').height(($(window).height())-($('.navbar').height())-($('footer').height()));
             var lhH2 = (($('.carousel-inner').height()) - ($('.signupForm').height())) / 2
-            $('.carousel-inner div h2').css( "top", lhH2 + "px" );
-            $('.carousel-control').css( "top", lhH2 + "px" );
-            
+            $('.carousel-inner div h2,.carousel-control').css( "top", lhH2 + "px" );
+            $('.carousel-indicators').css( "top", (($('.carousel-inner').height()) - ($('.signupForm').height())) - 75 + "px" );
             $('.carousel-inner').height(($(window).height())-($('.navbar').height())-($('footer').height()));
           }
 
