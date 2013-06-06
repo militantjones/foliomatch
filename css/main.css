@@ -46,7 +46,15 @@ form.signupForm { display: block; background-color: rgba(255,255,255,.5); width:
 .textpagebody { margin: 20px 10% 20px 10%; font-size: 14px; color: #242C48; font-family: helvetica, sans-serif; }
 
 /* used on for students page */
-.imagehead { margin: 20px auto 0 auto; width: 80%; max-width: 725px; display:block; }
-.imagesubhead { margin: 0 auto 0 auto; width: 80%; max-width: 714px; display:block; }
-.studentsgraphic { margin: 30px auto 0 auto; width: 80%; max-width: 875px; display:block; }
-.studentsbody { margin: 10px auto 30px auto; width: 82%; max-width: 930px; display:block; }
+.centersection { margin: 0 auto; width: 80%; text-align: center; }
+.imagehead { margin: 20px auto 0 auto; width: 100%; max-width: 725px; display:block; }
+.imagesubhead { margin: 0 auto 0 auto; width: 100%; max-width: 714px; display:block; }
+.studentsgraphic { margin: 30px auto 0 auto; width: 100%; max-width: 875px; display:block; }
+.studentsbody { margin: 10px auto 30px auto; width: 100%; max-width: 930px; display:block; }
+.studentdescriptionblock { width:26%; height:100px; position:relative; float:left; background-color:#CCC; }
+.studentdescriptionblock>div { margin:20px; }
+
+#nav { margin: 0 auto; width: 90%; text-align: center; max-width: 900px;}
+.block { width:33%; height:50%; position:relative; float:left; }
+.block>div { margin:0 20px 20px; text-align: center; vertical-align: top; font-size: 14px; color: #242C48; font-family: helvetica, sans-serif; }
+.block>div>h3 { font-weight: bold; font-size: 14px; margin: 0; padding: 0; }
