@@ -27,7 +27,7 @@ section.hero { position: relative; width: 100%; bottom: 0px; overflow-x: hidden;
 
 .carousel-control { margin-top: 0px;}
 
-form.signupForm { display: block; background-color: rgba(255,255,255,.5); width: 100%; position: absolute; bottom: 0px; margin-bottom: 0px; padding: 0px 20px 20px;}
+form.signupForm { display: block; background-color: rgba(255,255,255,.5); width: 100%; position: absolute; bottom: 0px; margin-bottom: 0px; padding: 20px 0px;}
 	form.signupForm h3 { color: #36445f; } 
 	form.signupForm button.btn { width: 100%;}
 
