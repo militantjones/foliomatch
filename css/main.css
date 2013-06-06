@@ -18,3 +18,6 @@ footer { background-color: #333c5c; padding-left: 20px; padding-right: 20px; lin
 	footer ul { margin: 0;}
 		footer ul > li { color: #e3e4e9; font-size: 12px; }
 			footer ul > li a, footer ul > li a:hover, footer ul > li a:focus, footer ul > li a:link { color: #e3e4e9; text-decoration: none; }
+
+.textpagetitle { margin: 20px 10% 20px 10%; font-size: 22px; font-weight: bold; text-align: center; color: #242C48; font-family: helvetica, sans-serif; }
+.textpagebody { margin: 20px 10% 20px 10%; font-size: 14px; color: #242C48; font-family: helvetica, sans-serif; }
