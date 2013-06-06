@@ -67,22 +67,45 @@
         </ol>
         <!-- Carousel items -->
         <div class="carousel-inner">
-          <div class="active item">First</div>
-          <div class="item">Second</div>
-          <div class="item">Third</div>
-          <div class="item">Video</div>
+          <div class="active item"><h2>Do What You Love. Not What Your Are Told.</h2></div>
+          <div class="item"><h2>Upload Your Work. Get Matched.</h2></div>
+          <div class="item"><h2></h2></div>
+          <div class="item"><h2>Video Placement</h2></div>
         </div>
         <!-- Carousel nav -->
         <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
         <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
       </div>
-      <form class="signupForm"></form>
+      <form class="signupForm">
+        <h3>register today to start your free profile</h3>
+        <div class="row">
+          <div class="controls controls-row span9">
+            <input class="span3" type="text" placeholder="email">
+            <input class="span3" type="text" placeholder="password">
+            <input class="span3" type="text" placeholder="password confirm">
+          </div>
+          <div class="controls span3">
+            <button class="btn btn-info">submit</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="controls span9">
+            <label class="checkbox"><input type="checkbox">agree to terms &amp; conditions</label>
+          </div>
+          <div class="controls span3">
+            <button class="btn btn-primary">signup using Facebook</button>
+          </div>
+        </div>
+
+        <div class="controls controls-row">
+        </div>
+      </form>
     </section>
     <footer>
       <ul class="inline pull-right">
-        <li><a href="#">facebook</a></li>
-        <li><a href="#">twitter</a></li>
-        <li><a href="#">linkedin</a></li>
+        <li><a href="#"><img src="img/facebook.png" /></a></li>
+        <li><a href="#"><img src="img/twitter.png" /></a></li>
+        <li><a href="#"><img src="img/linkedin.png" /></a></li>
       </ul>
       <ul class="inline">
         <li><a href="#">home</a></li>
@@ -100,6 +123,11 @@
           $(window).resize(wHeight);
           function wHeight() {
             $('section.hero').height(($(window).height())-($('.navbar').height())-($('footer').height()));
+            $('.carousel-inner').height(($(window).height())-($('.navbar').height())-($('footer').height()));
+            var lhH2 = (($('.carousel-inner').height()) - ($('.signupForm').height())) / 2
+            $('.carousel-inner div h2').css( "top", lhH2 + "px" );
+            $('.carousel-control').css( "top", lhH2 + "px" );
+            
             $('.carousel-inner').height(($(window).height())-($('.navbar').height())-($('footer').height()));
           }
 
