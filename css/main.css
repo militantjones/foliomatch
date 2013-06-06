@@ -11,7 +11,7 @@ footer { background-color: #333c5c; padding-left: 20px; padding-right: 20px; lin
 		footer ul > li { color: #e3e4e9; font-size: 12px; }
 			footer ul > li a, footer ul > li a:hover, footer ul > li a:focus, footer ul > li a:link { color: #e3e4e9; text-decoration: none; }
 			footer ul > li a:hover { color: #f45643; }
-			
+
 /*Adam's Stuff, I need to focus the selectors*/
 section.hero { position: relative; width: 100%; bottom: 0px; overflow-x: hidden; }
 .carousel { margin-bottom: 0px; }
@@ -31,5 +31,12 @@ form.signupForm { display: block; background-color: rgba(255,255,255,.5); width:
 	form.signupForm h3 { color: #36445f; } 
 	form.signupForm button.btn { width: 100%;}
 
+/* used on privacy policy and terms of use pages */
 .textpagetitle { margin: 20px 10% 20px 10%; font-size: 22px; font-weight: bold; text-align: center; color: #242C48; font-family: helvetica, sans-serif; }
 .textpagebody { margin: 20px 10% 20px 10%; font-size: 14px; color: #242C48; font-family: helvetica, sans-serif; }
+
+/* used on for students page */
+.imagehead { margin: 20px auto 0 auto; width: 80%; max-width: 725px; display:block; }
+.imagesubhead { margin: 0 auto 0 auto; width: 80%; max-width: 714px; display:block; }
+.studentsgraphic { margin: 30px auto 0 auto; width: 80%; max-width: 875px; display:block; }
+.studentsbody { margin: 10px auto 30px auto; width: 82%; max-width: 930px; display:block; }
