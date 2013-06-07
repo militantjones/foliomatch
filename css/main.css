@@ -13,6 +13,7 @@ footer { background-color: #333c5c; padding-left: 20px; padding-right: 20px; lin
 		footer ul > li { color: #e3e4e9; font-size: 12px; }
 			footer ul > li a, footer ul > li a:hover, footer ul > li a:focus, footer ul > li a:link { color: #e3e4e9; text-decoration: none; }
 			footer ul > li a:hover { color: #f45643; }
+		footer ul li.active a { color: #f45643;}
 	footer ul li a.social { display: block; height: 21px; width: 21px; margin-top: 8px; }
 	footer ul li a.facebook { background: transparent url('../img/facebook.png') no-repeat ; }
 		footer ul li a.facebook:hover { background: transparent url('../img/facebook_hover.png') no-repeat ; }
@@ -40,6 +41,14 @@ section.hero.signup .carousel-control { margin-top: 0px;}
 form.signupForm { display: block; background-color: rgba(255,255,255,.5); width: 100%; position: absolute; bottom: 0px; margin-bottom: 0px; padding: 20px 0px;}
 	form.signupForm h3 { color: #36445f; } 
 	form.signupForm button.btn { width: 100%;}
+
+/* Contact Us */
+section.contactus { background: url('../img/home.slide.1.jpg') no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover;-o-background-size: cover; background-size: cover; top: 0%; }
+	section.contactus form { background-color: rgba(244,86,67,.8); margin-top: 20%; }
+		section.contactus fieldset { padding: 5px 20px 20px; }
+			section.contactus form fieldset h3 { color: #fff; }
+			section.contactus form fieldset .control-group:last-of-type { text-align: center; }
+			section.contactus form fieldset .control-group:last-of-type > button { background-color: #fff; color: rgba(244,86,67,1); width: 40%; margin: 0px 8px; }
 
 /* used on privacy policy and terms of use pages */
 .textpagetitle { margin: 20px 10% 20px 10%; font-size: 22px; font-weight: bold; text-align: center; color: #242C48; font-family: helvetica, sans-serif; }
