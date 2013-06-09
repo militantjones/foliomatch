@@ -67,3 +67,12 @@ section.contactus { background: url('../img/home.slide.1.jpg') no-repeat center 
 .block { width:33%; height:50%; position:relative; float:left; }
 .block>div { margin:0 20px 20px; text-align: center; vertical-align: top; font-size: 14px; color: #242C48; font-family: helvetica, sans-serif; }
 .block>div>h3 { font-weight: bold; font-size: 14px; margin: 0; padding: 0; }
+
+/* timeline */
+.events { background: url(../img/blue-tile.jpg) repeat-y top center; height: 600px;}
+section.timeline { position: inherit; width: 100%; bottom: 0px; overflow-x: hidden; }
+.timeline h3 { text-align: center;}
+.event { border: 4px solid #303d5d; height: 200px;}
+.space { height: 200px;}
+
+
