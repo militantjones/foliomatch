@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>FolioMatch For Students</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- javascript -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="../assets/ico/favicon.png">
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-primary btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="./index.html">FolioMatch</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="">
+                <a href="">home</a>
+              </li>
+              <li class="active">
+                <a href="">for students</a>
+              </li>
+              <li class="">
+                <a href="">for educators</a>
+              </li>
+              <li class="">
+                <a href="">about us</a>
+              </li>
+              <li class="">
+                <a href="">login</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section>
+      <div class="centersection">
+        <img src="img/students-head.png" class="studentsimagehead">
+        <img src="img/students-subhead.png" class="studentsimagesubhead">
+        <img src="img/students-graphic.png" class="studentsgraphic">
+        <!-- <img src="img/students-body.png" class="studentsbody"> -->
+      </div>
+    <img src="img/students-graphic1.png" class="studentsgraphicsmall"></img>
+    <div class="studentsblock" id="left">
+        <div>
+            <h3>do awesome work</h3>
+            <p>take every chance to engage in opportunities that will help you progress in your career. and don't worry. we'll offer some suggestions along the way.</p>
+        </div>
+    </div>
+    <img src="img/students-graphic2.png" class="studentsgraphicsmall"></img>
+    <div class="studentsblock" id="middle">
+        <div>
+            <h3>upload your work</h3>
+            <p>one you've completed a project or experience upload it to your portfolio. for prospective schools and employers to see.</p>
+        </div>
+    </div>
+    <img src="img/students-graphic3.png" class="studentsgraphicsmall"></img>
+    <div class="studentsblock" id="right">
+        <div>
+            <h3>get matched</h3>
+            <p>with the information you've input in to your portfolio and the projects you've uploaded we will match you with prospective employers and educators.</p>
+        </div>
+    </div>
+    <div style="clear:both;"></div>
+      
+
+      
+    </section>
+    <footer>
+      <ul class="inline pull-right">
+        <li><a href="#" class="social facebook"></a></li>
+        <li><a href="#" class="social twitter"></a></li>
+        <li><a href="#" class="social linkedin"></a></li>
+      </ul>
+      <ul class="inline">
+        <li><a href="#">home</a></li>
+        <li><a href="#">for students</a></li>
+        <li><a href="#">for educators</a></li>
+        <li><a href="#">about us</a></li>
+        <li class="muted">&copy;2013 foliomatch llc all rights reserved</li>
+      </ul>
+    </footer>
+
+    <script>
+
+      $(document).ready(function(){
+          $(wHeight);
+          $(window).resize(wHeight);
+          function wHeight() {
+            $('section.hero').height(($(window).height())-($('.navbar').height())-($('footer').height()));
+            $('.carousel-inner').height(($(window).height())-($('.navbar').height())-($('footer').height()));
+          }
+
+      });
+    </script>
+  
+  </body>
+
+</html>

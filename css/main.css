@@ -56,23 +56,55 @@ section.contactus { background: url('../img/home.slide.1.jpg') no-repeat center 
 
 /* used on for students page */
 .centersection { margin: 0 auto; width: 80%; text-align: center; }
-.imagehead { margin: 20px auto 0 auto; width: 100%; max-width: 725px; display:block; }
-.imagesubhead { margin: 0 auto 0 auto; width: 100%; max-width: 714px; display:block; }
+.studentsimagehead { margin: 20px auto 0 auto; width: 100%; max-width: 725px; display:block; }
+.studentsimagesubhead { margin: 0 auto 0 auto; width: 100%; max-width: 714px; display:block; }
 .studentsgraphic { margin: 30px auto 0 auto; width: 100%; max-width: 875px; display:block; }
 .studentsgraphicsmall { display:none; }
 .studentsbody { margin: 10px auto 30px auto; width: 100%; max-width: 930px; display:block; }
-.studentdescriptionblock { width:26%; height:100px; position:relative; float:left; background-color:#CCC; }
-.studentdescriptionblock>div { margin:20px; }
-
-#nav { margin: 0 auto; width: 90%; text-align: center; max-width: 900px;}
-.block { width:33%; height:50%; position:relative; float:left; }
-.block>div { margin:0 20px 20px; text-align: center; vertical-align: top; font-size: 14px; color: #242C48; font-family: helvetica, sans-serif; }
-.block>div>h3 { font-weight: bold; font-size: 14px; margin: 0; padding: 0; }
+.studentsblock { width:33%; height:50%; position:relative; float:left; }
+.studentsblock>div { margin:0 20px 20px; text-align: center; vertical-align: top; font-size: 14px; color: #242C48; font-family: helvetica, sans-serif; }
+.studentsblock>div>h3 { font-weight: bold; font-size: 14px; margin: 0; padding: 0; }
 
 @media only screen and (max-width: 767px) {
 	.studentsgraphic { display:none; }
-	.block { width:100%; height:50%; position:relative; float:left; }
+	.studentsblock { width:100%; height:50%; position:relative; float:left; }
 	.studentsgraphicsmall { margin: 30px auto 0 auto; width: 100%; max-width: 187px; display:block; }
+}
+
+/* used on for educators page */
+.educatorsimagehead { margin: 20px auto 0 auto; width: 100%; max-width: 767px; display:block; }
+.educatorsimagesubhead { margin: 0 auto 0 auto; width: 100%; max-width: 578px; display:block; }
+.educatorsblock { margin: 30px 0 40px 0; }
+.educatorstextblock { margin:0 20px 20px; padding-right: 20px; text-align: right; vertical-align: top; font-size: 18px; color: #242C48; font-family: helvetica, sans-serif; line-height: 130%;}
+
+.educatorsvideo {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+
+.educatorsvideo iframe,  
+.educatorsvideo object,  
+.educatorsvideo embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.educatorsvideoblock {
+	width: 500px;
+	max-width: 100%;
+	float: right;
+	margin: 0 20px 70px 20px;
+}
+
+@media only screen and (max-width: 1023px) {
+	.educatorsvideoblock {float: none; width: 1023px; margin: 0;}
+	.educatorstextblock { text-align: left; padding-right: 0; margin: 20px 0 20px;}
 }
 
 /* timeline */
