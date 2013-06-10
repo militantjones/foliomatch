@@ -59,6 +59,7 @@ section.contactus { background: url('../img/home.slide.1.jpg') no-repeat center 
 .imagehead { margin: 20px auto 0 auto; width: 100%; max-width: 725px; display:block; }
 .imagesubhead { margin: 0 auto 0 auto; width: 100%; max-width: 714px; display:block; }
 .studentsgraphic { margin: 30px auto 0 auto; width: 100%; max-width: 875px; display:block; }
+.studentsgraphicsmall { display:none; }
 .studentsbody { margin: 10px auto 30px auto; width: 100%; max-width: 930px; display:block; }
 .studentdescriptionblock { width:26%; height:100px; position:relative; float:left; background-color:#CCC; }
 .studentdescriptionblock>div { margin:20px; }
@@ -67,6 +68,12 @@ section.contactus { background: url('../img/home.slide.1.jpg') no-repeat center 
 .block { width:33%; height:50%; position:relative; float:left; }
 .block>div { margin:0 20px 20px; text-align: center; vertical-align: top; font-size: 14px; color: #242C48; font-family: helvetica, sans-serif; }
 .block>div>h3 { font-weight: bold; font-size: 14px; margin: 0; padding: 0; }
+
+@media only screen and (max-width: 767px) {
+	.studentsgraphic { display:none; }
+	.block { width:100%; height:50%; position:relative; float:left; }
+	.studentsgraphicsmall { margin: 30px auto 0 auto; width: 100%; max-width: 187px; display:block; }
+}
 
 /* timeline */
 .events { background: url(../img/blue-tile.jpg) repeat-y top center; height: 600px;}
