@@ -139,9 +139,32 @@ section.updateProfile { background: url('../img/proflieSettings.background.png')
 }
 
 /* timeline */
-.events { background: url(../img/blue-tile.jpg) repeat-y top center; height:550px;}
+.events { background: url(../img/blue-tile.jpg) repeat-y top center; }
 section.timeline { position: relative; width: 100%; bottom: 0px; overflow-x: hidden; }
 .timeline h3 { text-align: center;}
-#timeline .events .event { border: 4px solid #303d5d; height: 200px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; margin-bottom: 20px; list-style-type: none;}
+#timeline .events .event { float: left; border: 4px solid #303d5d; width: 45%; margin: 0 2% 0 2%; padding: 9px 13px 15px 8px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; margin-bottom: 20px; list-style-type: none;}
+.avatar { height: 40px; width: 40px; background: #303d5d;}
+.profinfo { color: #303d5d; }
+.titlehead { padding-left: 10px;}
+.profhead { float: left;}
+.profhead h4 { margin: 0; padding: 0;}
+.comment { clear: both;}
+.proimg { background: #303d5d; height: 120px;}
+.vidbox { height: 280px; width: 100%; background: #303d5d;}
+.single-img { height: 120px; width: 100%; background: #303d5d; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
