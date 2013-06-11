@@ -49,34 +49,65 @@
               <li class="">
                 <a href="">about us</a>
               </li>
-              <li class="">
-                <a href="">login</a>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#"> Adam Jones <b class=" icon-cog"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">account settings</a></li>
+                  <li><a href="#">update profile</a></li>
+                  <li><a href="#">logout</a></li>
+                </ul>
               </li>
             </ul>
           </div>
         </div>
       </div>
     </nav>
-    <section class="hero contactus">
+    <section class="hero profileSettings">
       <div class="row-fluid">
-        <div class="span4 offset2">
+        <div class="span5 offset2">
           <form class="form-horizontal">
             <fieldset>
-              <h3>Contact</h3>
-              <div class="control-group">
-                <input type="text" class="span12" placeholder="name" />
+              <h3>Account Settings</h3>
+              <div class="btn-group" data-toggle="buttons-radio">
+                <button type="button" class="btn btn-primary active" href="#generalSettings" data-toggle="tab">General</button>
+                <button type="button" class="btn btn-primary" href="#passwordSettings" data-toggle="tab">Password</button>
               </div>
-              <div class="control-group">
-                <input type="text" class="span12" placeholder="email" />
+              <div class="tab-content">
+                <div class="tab-pane active" id="generalSettings">
+                  <div class="control-group">
+                    <input type="text" class="span12" placeholder="profile url" />
+                    <span class="label label-inverse">url already in use</span>
+                  </div>
+                  <div class="control-group">
+                      <label class="checkbox">
+                        <input type="checkbox" value="">
+                        Make My Proflie Private
+                      </label>
+                      <label class="checkbox">
+                        <input type="checkbox" value="">
+                        Enable Matching
+                      </label>
+                  </div>
+                  <div class="control-group">
+                      
+                  </div>
+
+
+                  
+                  <button class="btn">delete profile</button>
+                  <div class="control-group pull-right">
+                    <button class="btn">clear changes</button>
+                    <button class="btn">submit</button>
+                  </div>
+                </div>
+                <div class="tab-pane" id="passwordSettings">
+                  <div class="control-group controls-row span12">
+                    <input class="span6" type="text" placeholder="current password">
+                    <input class="span6" type="text" placeholder="new password">
+                  </div>
+                  <button class="btn pull-right">reset password</button>
+                </div>
               </div>
-              <div class="control-group">
-                <textarea class="span12" placeholder="password confirm"></textarea>
-              </div>
-              <div class="control-group">
-                <button class="btn">submit</button>
-                <button class="btn">clear</button>
-              </div>
-              
             </fieldset>
           </form>
         </div>

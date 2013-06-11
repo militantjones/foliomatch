@@ -104,6 +104,11 @@
           $(window).resize(wHeight);
           function wHeight() {
             $('section.hero').height(($(window).height())-($('.navbar').height())-($('footer').height()));
+            $('.carousel-inner').height(($(window).height())-($('.navbar').height())-($('footer').height()));
+            var lhH2 = (($('.carousel-inner').height()) - ($('.signupForm').height())) / 2
+            $('.carousel-inner div h2,.carousel-control').css( "top", lhH2 + "px" );
+            $('.carousel-indicators').css( "top", (($('.carousel-inner').height()) - ($('.signupForm').height())) - 75 + "px" );
+            $('.carousel-inner').height(($(window).height())-($('.navbar').height())-($('footer').height()));
           }
 
       });
