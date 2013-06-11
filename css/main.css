@@ -111,10 +111,9 @@ section.contactus { background: url('../img/home.slide.1.jpg') no-repeat center 
 }
 
 /* timeline */
-.events { background: url(../img/blue-tile.jpg) repeat-y top center; height: 600px;}
-section.timeline { position: inherit; width: 100%; bottom: 0px; overflow-x: hidden; }
+.events { background: url(../img/blue-tile.jpg) repeat-y top center; height:550px;}
+section.timeline { position: relative; width: 100%; bottom: 0px; overflow-x: hidden; }
 .timeline h3 { text-align: center;}
-.event { border: 4px solid #303d5d; height: 200px;}
-.space { height: 200px;}
+#timeline .events .event { border: 4px solid #303d5d; height: 200px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; margin-bottom: 20px; list-style-type: none;}
 
 
