@@ -116,7 +116,7 @@ section.updateProfile { background: url('../img/proflieSettings.background.png')
 }
 
 /* used on experience overview pages */
-.widecentersection { margin: 0 10px; text-align: center; }
+.widecentersection { margin: 0 10px 20px 10px; text-align: center; }
 .inlinebox { display: inline-block; width: 200px; height: 200px; background-color: #ffffff;margin:12px 10px; position: relative;}
 .inlinebox img { width: 100%; height:100%; filter: url(img/filters.svg#grayscale); filter: gray; -webkit-filter: grayscale(1); }
 .inlinebox:hover img { filter: none; -webkit-filter: grayscale(0); }
@@ -130,6 +130,13 @@ section.updateProfile { background: url('../img/proflieSettings.background.png')
 .experiencesviewoptions a { color: #242C48; text-decoration: none;}
 .experiencesviewoptions a:hover { color: #f45643; text-decoration: none;}
 .experiencesviewoptions .active { color: #f45643; text-decoration: none; }
+@media only screen and (max-width: 460px) {
+	.widecentersection {margin: 0 5px 20px 5px;}
+	.inlinebox { width: 140px; height:140px; margin: 4px 3px;}
+	.inlineboxtitle { top: 100px; height: 40px;}
+	.inlineboxtitlelarge { font-size: 13px; margin: 5px 5px 0 5px;}
+	.inlineboxtitlesmall { font-size: 9px; margin: 0px 5px 5px 5px; position: relative; top: -5px;}
+}
 
 /* timeline */
 .events { background: url(../img/blue-tile.jpg) repeat-y top center; height:550px;}
