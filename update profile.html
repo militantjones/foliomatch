@@ -62,49 +62,51 @@
         </div>
       </div>
     </nav>
-    <section class="hero profileSettings">
+    <section class="hero updateProfile">
       <div class="row-fluid">
-        <div class="span5 offset2">
-          <form class="form-horizontal">
+        <div class="span10 offset1">
+          <form class="form">
             <fieldset>
-              <h3>Account Settings</h3>
-              <div class="btn-group" data-toggle="buttons-radio">
-                <button type="button" class="btn btn-primary active" href="#generalSettings" data-toggle="tab">General</button>
-                <button type="button" class="btn btn-primary" href="#passwordSettings" data-toggle="tab">Password</button>
+              <h3>Update Profile</h3>
+              <div class="row-fluid">
+                <div class="controls control-group controls-row span9">
+                  <input class="span4" type="text" placeholder="name">
+                  <select class="span4">
+                    <option>Female</option>
+                    <option>Male</option>
+                  </select>
+                  <input class="span4" type="text" placeholder="zipcode">
+                </div>
               </div>
-              <div class="tab-content">
-                <div class="tab-pane active" id="generalSettings">
-                  <div class="control-group">
-                    <input type="text" class="span12" placeholder="profile url" />
-                    <span class="label label-inverse">url already in use</span>
-                  </div>
-                  <div class="control-group">
-                      <label class="checkbox">
-                        <input type="checkbox" value="">
-                        Make My Proflie Private
-                      </label>
-                      <label class="checkbox">
-                        <input type="checkbox" value="">
-                        Enable Matching
-                      </label>
-                  </div>
-                  <div class="control-group">
-                      
-                  </div>
-                  <button class="btn">delete profile</button>
-                  <div class="control-group pull-right">
+              <div class="row-fluid">
+                <div class="controls control-group controls-row span9">
+                  <input class="span4" type="text" placeholder="update email">
+                  <input class="span4" type="text" placeholder="confirm email">
+                  <input class="span4" type="text" placeholder="phone number">
+                </div>
+              </div>
+              <div class="row-fluid">
+                <div class="controls control-group controls-row span4">
+                  <input class="span4" type="text" placeholder="gpa">
+                  <input class="span4" type="text" placeholder="act">
+                  <input class="span4" type="text" placeholder="sat">
+                </div>
+              </div>
+              <div class="row-fluid">
+                <div class="controls control-group controls-row span9">
+                  <select class="span4">
+                    <option selected disabled>education level</option>
+                    <option>level</option>
+                    <option>level</option>
+                  </select>
+                  <input class="span4" type="text" placeholder="current school">
+                  <input class="span4" type="text" placeholder="graduation date">
+                </div>
+              </div>
+              <div class="control-group pull-right">
                     <button class="btn">clear changes</button>
-                    <button class="btn">submit</button>
+                    <button class="btn">update</button>
                   </div>
-                </div>
-                <div class="tab-pane" id="passwordSettings">
-                  <div class="control-group controls-row span12">
-                    <input class="span6" type="text" placeholder="current password">
-                    <input class="span6" type="text" placeholder="new password">
-                  </div>
-                  <button class="btn pull-right">reset password</button>
-                </div>
-              </div>
             </fieldset>
           </form>
         </div>

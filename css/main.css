@@ -52,9 +52,10 @@ form.signupForm { display: block; background-color: rgba(255,255,255,.5); width:
 /* Single Form Pages */
 section.contactus { background: url('../img/home.slide.1.jpg') no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover;-o-background-size: cover; background-size: cover; top: 0%; }
 section.profileSettings { background: url('../img/proflieSettings.background.png') no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover;-o-background-size: cover; background-size: cover; top: 0%; }
-	section.contactus form, section.profileSettings form { background-color: rgba(244,86,67,.8); margin-top: 15%; }
-		section.contactus fieldset, section.profileSettings fieldset { padding: 5px 20px 20px; }
-			section.contactus form fieldset h3, section.profileSettings form fieldset h3, section.contactus form fieldset label, section.profileSettings form fieldset label { color: #fff; }
+section.updateProfile { background: url('../img/proflieSettings.background.png') no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover;-o-background-size: cover; background-size: cover; top: 0%; }
+	section.contactus form, section.profileSettings form, section.updateProfile form { background-color: rgba(244,86,67,.8); margin-top: 100px; }
+		section.contactus fieldset, section.profileSettings fieldset, section.updateProfile fieldset { padding: 5px 20px 20px; }
+			section.contactus form fieldset h3, section.profileSettings form fieldset h3, section.updateProfile form fieldset h3, section.contactus form fieldset label, section.profileSettings form fieldset label { color: #fff; }
 			section.contactus form fieldset .control-group:last-of-type { text-align: center; }
 			section.contactus form fieldset .control-group:last-of-type > button { background-color: #fff; color: rgba(244,86,67,1); width: 40%; margin: 0px 8px; }
 			/* pill nav for profile settings */
