@@ -104,7 +104,16 @@ section.updateProfile { background: url('../img/proflieSettings.background.png')
 .aboutbrandtext { text-align: center; vertical-align: top; font-size: 18px; color: #242C48; font-family: helvetica, sans-serif; line-height: 130%; margin-bottom: 20px;}
 .aboutteam { width: 45%; float: right;}
 .aboutheadline {margin:30px; font-family: helvetica, sans-serif; font-weight: bold; font-size: 24px; color: #242C48;}
-
+.aboutteammember {position:relative; min-height: 170px;}
+.aboutteamphoto { width:150px; position: absolute; top: 0; left: 0;}
+.aboutteamtitlebox { width: 150px; position: absolute; left: 0; top: 100px; height: 50px; background-color: rgba(0,0,0,.4);}
+.aboutteamtitlename { padding-left: 10px; padding-top: 5px; text-align: left; vertical-align: top; font-size: 14px; color: #ffffff; font-family: helvetica, sans-serif; font-weight: bold;}
+.aboutteamtitlerole { padding-left: 10px; text-align: left; vertical-align: top; font-size: 12px; color: #ffffff; font-family: helvetica, sans-serif; }
+.aboutteamtext { padding-left: 170px; padding-bottom:20px; text-align: left; vertical-align: top; font-size: 14px; color: #242C48; font-family: helvetica, sans-serif; line-height: 130%;}
+@media only screen and (max-width: 914px) {
+	.aboutbrand {float:none; width:100%;}
+	.aboutteam {float:none; width:100%;}
+}
 
 /* timeline */
 .events { background: url(../img/blue-tile.jpg) repeat-y top center; height:550px;}
