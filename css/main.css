@@ -153,11 +153,19 @@ section.timeline { position: relative; width: 100%; bottom: 0px; overflow-x: hid
 .vidbox { height: 280px; width: 100%; background: #303d5d;}
 .single-img { height: 120px; width: 100%; background: #303d5d; }
 
+/* about me public */
+.aboutone { padding: 40px 2%;}
+.top { height: 55% !important; width: 100%; margin: 0;}
+.bottom { height: 200px; display: block;}
+div.aboutpic { background: #303d5d; width: 20% !important; float: left;}
 
+div.aboutinfo { width: 55% !important; float: left; color: #303d5d; text-align: left; padding-left: 20px;}
+div.aboutbox { width: 20% !important; float: left;}
+div.box { height: 112px; width: 112px; background: #000000; margin: 0 auto;}
 
-
-
-
+div.bottom { text-align: left; }
+.bottom .span6 ul { margin: 0; padding: 0;}
+.bottom .span6 ul li { list-style: none; margin: 0; padding: 0;}
 
 
 
