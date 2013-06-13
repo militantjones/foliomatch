@@ -53,9 +53,19 @@ form.signupForm { display: block; background-color: rgba(255,255,255,.5); width:
 section.contactus { background: url('../img/home.slide.1.jpg') no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover;-o-background-size: cover; background-size: cover; top: 0%; }
 section.profileSettings { background: url('../img/proflieSettings.background.png') no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover;-o-background-size: cover; background-size: cover; top: 0%; }
 section.updateProfile { background: url('../img/proflieSettings.background.png') no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover;-o-background-size: cover; background-size: cover; top: 0%; }
+section.aboutme { background: url('../img/aboutme.background.png') no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover;-o-background-size: cover; background-size: cover; top: 0%; }
+	section.aboutme .card { background-color: rgba(47,62,90,.9); padding: 10px 15px; }
+		section.aboutme .card.top { margin-top: 40px; }
+			section.aboutme .card.top .avatarContainer { background-color: #ddd; overflow: hidden; }
+			section.aboutme .card.top .social { text-align: right; }
+				section.aboutme .card.top .social img { margin-bottom: 2px; }
+				section.aboutme .card.top .social img:last-of-type { margin-bottom: 0px; }
+		section.aboutme .card.bottom { margin-top: 20px; }
 	section.contactus form, section.profileSettings form, section.updateProfile form { background-color: rgba(244,86,67,.8); margin-top: 100px; }
 		section.contactus fieldset, section.profileSettings fieldset, section.updateProfile fieldset { padding: 5px 20px 20px; }
-			section.contactus form fieldset h3, section.profileSettings form fieldset h3, section.updateProfile form fieldset h3, section.contactus form fieldset label, section.profileSettings form fieldset label { color: #fff; }
+			section.contactus form fieldset h3, section.profileSettings form fieldset h3, section.updateProfile form fieldset h3, section.contactus form fieldset label, section.profileSettings form fieldset label, section.aboutme .card h3, section.aboutme .card li { color: #fff; }
+			 section.aboutme .card li { font-size: 12px; }
+			 section.aboutme .card li em { color: rgba(244,86,67,1); }
 			section.contactus form fieldset .control-group:last-of-type { text-align: center; }
 			section.contactus form fieldset .control-group:last-of-type > button { background-color: #fff; color: rgba(244,86,67,1); width: 40%; margin: 0px 8px; }
 			/* pill nav for profile settings */
