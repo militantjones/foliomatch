@@ -37,7 +37,7 @@
           <a class="brand" href="./index.html"><span>FolioMatch</span></a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li class="">
+              <li class="active">
                 <a href="">home</a>
               </li>
               <li class="">
@@ -51,13 +51,6 @@
               </li>
               <li class="">
                 <a href="" data-toggle="modal" data-target="#login">login</a>
-              <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#"> Adam Jones <b class=" icon-cog"></b></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">account settings</a></li>
-                  <li><a href="#">update profile</a></li>
-                  <li><a href="#">logout</a></li>
-                </ul>
               </li>
             </ul>
           </div>
@@ -125,6 +118,13 @@
           
           <!-- page 3 -->
           <div class="item">test 3</div>
+        </div>
+        <!-- Carousel nav -->
+        <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+        <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+      </div>
+      
+    </section>
     
     <footer>
       <ul class="inline pull-right">
@@ -148,8 +148,11 @@
           $(window).resize(wHeight);
           function wHeight() {
             $('section.hero').height(($(window).height())-($('.navbar').height())-($('footer').height()));
-            $('.avatarContainer').height(($('.social').height()));
-
+            $('.carousel-inner').height(($(window).height())-($('.navbar').height())-($('footer').height()));
+            var lhH2 = (($('.carousel-inner').height()) - ($('.signupForm').height())) / 2
+            $('.carousel-inner div h2,.carousel-control').css( "top", lhH2 + "px" );
+            $('.carousel-indicators').css( "top", (($('.carousel-inner').height()) - ($('.signupForm').height())) - 75 + "px" );
+            $('.carousel-inner').height(($(window).height())-($('.navbar').height())-($('footer').height()));
           }
 
       });

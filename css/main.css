@@ -181,7 +181,7 @@ div.aboutinfo { width: 55% !important; float: left; color: #303d5d; text-align: 
 div.aboutbox { width: 20% !important; float: left;}
 div.box { height: 112px; width: 112px; background: #000000; margin: 0 auto;}
 
-div.bottom { text-align: left; }
+div.bottom { text-align: left; color: #303d5d; }
 .bottom .span6 ul { margin: 0; padding: 0;}
 .bottom .span6 ul li { list-style: none; margin: 0; padding: 0;}
 
