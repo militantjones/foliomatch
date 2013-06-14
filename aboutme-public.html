@@ -37,7 +37,6 @@
           <a class="brand" href="./index.html"><span>FolioMatch</span></a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li class="active">
               <li class="">
                 <a href="">home</a>
               </li>
@@ -52,6 +51,13 @@
               </li>
               <li class="">
                 <a href="" data-toggle="modal" data-target="#login">login</a>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#"> Adam Jones <b class=" icon-cog"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">account settings</a></li>
+                  <li><a href="#">update profile</a></li>
+                  <li><a href="#">logout</a></li>
+                </ul>
               </li>
             </ul>
           </div>
@@ -119,9 +125,6 @@
           
           <!-- page 3 -->
           <div class="item">test 3</div>
-        </div>
-      </div>
-      
     
     <footer>
       <ul class="inline pull-right">
@@ -145,6 +148,8 @@
           $(window).resize(wHeight);
           function wHeight() {
             $('section.hero').height(($(window).height())-($('.navbar').height())-($('footer').height()));
+            $('.avatarContainer').height(($('.social').height()));
+
           }
 
       });
