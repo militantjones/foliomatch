@@ -53,9 +53,19 @@ form.signupForm { display: block; background-color: rgba(255,255,255,.5); width:
 section.contactus { background: url('../img/home.slide.1.jpg') no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover;-o-background-size: cover; background-size: cover; top: 0%; }
 section.profileSettings { background: url('../img/proflieSettings.background.png') no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover;-o-background-size: cover; background-size: cover; top: 0%; }
 section.updateProfile { background: url('../img/proflieSettings.background.png') no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover;-o-background-size: cover; background-size: cover; top: 0%; }
+section.aboutme { background: url('../img/aboutme.background.png') no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover;-o-background-size: cover; background-size: cover; top: 0%; }
+	section.aboutme .card { background-color: rgba(47,62,90,.9); padding: 10px 15px; }
+		section.aboutme .card.top { margin-top: 40px; }
+			section.aboutme .card.top .avatarContainer { background-color: #ddd; overflow: hidden; }
+			section.aboutme .card.top .social { text-align: right; }
+				section.aboutme .card.top .social img { margin-bottom: 2px; }
+				section.aboutme .card.top .social img:last-of-type { margin-bottom: 0px; }
+		section.aboutme .card.bottom { margin-top: 20px; }
 	section.contactus form, section.profileSettings form, section.updateProfile form { background-color: rgba(244,86,67,.8); margin-top: 100px; }
 		section.contactus fieldset, section.profileSettings fieldset, section.updateProfile fieldset { padding: 5px 20px 20px; }
-			section.contactus form fieldset h3, section.profileSettings form fieldset h3, section.updateProfile form fieldset h3, section.contactus form fieldset label, section.profileSettings form fieldset label { color: #fff; }
+			section.contactus form fieldset h3, section.profileSettings form fieldset h3, section.updateProfile form fieldset h3, section.contactus form fieldset label, section.profileSettings form fieldset label, section.aboutme .card h3, section.aboutme .card li { color: #fff; }
+			 section.aboutme .card li { font-size: 12px; }
+			 section.aboutme .card li em { color: rgba(244,86,67,1); }
 			section.contactus form fieldset .control-group:last-of-type { text-align: center; }
 			section.contactus form fieldset .control-group:last-of-type > button { background-color: #fff; color: rgba(244,86,67,1); width: 40%; margin: 0px 8px; }
 			/* pill nav for profile settings */
@@ -115,7 +125,7 @@ section.updateProfile { background: url('../img/proflieSettings.background.png')
 	.aboutteam {float:none; width:100%;}
 }
 
-/* used on experience overview pages */
+/* used on experience and project overview pages */
 .widecentersection { margin: 0 10px 20px 10px; text-align: center; }
 .inlinebox { display: inline-block; width: 200px; height: 200px; background-color: #ffffff;margin:12px 10px; position: relative;}
 .inlinebox img { width: 100%; height:100%; filter: url(img/filters.svg#grayscale); filter: gray; -webkit-filter: grayscale(1); }
@@ -126,10 +136,18 @@ section.updateProfile { background: url('../img/proflieSettings.background.png')
 .inlinebox:hover .inlineboxtitlelarge {color: #ffffff;}
 .inlineboxtitlesmall { text-align: left; vertical-align: top; font-size: 12px; color: #242C48; font-family: helvetica, sans-serif; margin-left:10px;}
 .inlinebox:hover .inlineboxtitlesmall {color: #ffffff;}
+.add { background-color: #dddddd; }
+.addblueplus {position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
+.addblueplus img {width: 100%; height: 100%;}
+.add:hover { background-color: #f45643; }
+.add:hover .addblueplus { display: none; }
+.showhide .off { display: none; }
+.showhide .on { width: 20px; height: 20px; position: absolute; top: 2px; right:2px; filter: none; -webkit-filter: grayscale(0);}
 .experiencesviewoptions {width: 80%; text-align: right; vertical-align: top; font-size: 14px; color: #242C48; font-family: helvetica, sans-serif; text-decoration: none; margin: 10px auto 10px auto;}
 .experiencesviewoptions a { color: #242C48; text-decoration: none;}
 .experiencesviewoptions a:hover { color: #f45643; text-decoration: none;}
 .experiencesviewoptions .active { color: #f45643; text-decoration: none; }
+
 @media only screen and (max-width: 460px) {
 	.widecentersection {margin: 0 5px 20px 5px;}
 	.inlinebox { width: 140px; height:140px; margin: 4px 3px;}
