@@ -38,6 +38,7 @@
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li class="active">
+              <li class="">
                 <a href="">home</a>
               </li>
               <li class="">
@@ -119,12 +120,8 @@
           <!-- page 3 -->
           <div class="item">test 3</div>
         </div>
-        <!-- Carousel nav -->
-        <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-        <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
       </div>
       
-    </section>
     
     <footer>
       <ul class="inline pull-right">
@@ -148,11 +145,6 @@
           $(window).resize(wHeight);
           function wHeight() {
             $('section.hero').height(($(window).height())-($('.navbar').height())-($('footer').height()));
-            $('.carousel-inner').height(($(window).height())-($('.navbar').height())-($('footer').height()));
-            var lhH2 = (($('.carousel-inner').height()) - ($('.signupForm').height())) / 2
-            $('.carousel-inner div h2,.carousel-control').css( "top", lhH2 + "px" );
-            $('.carousel-indicators').css( "top", (($('.carousel-inner').height()) - ($('.signupForm').height())) - 75 + "px" );
-            $('.carousel-inner').height(($(window).height())-($('.navbar').height())-($('footer').height()));
           }
 
       });
