@@ -189,13 +189,28 @@ div.below { text-align: left; color: #303d5d; }
 .test { background: aqua;}
 h4.question { color: #f0593c;  text-align: left; font-size: 20px;}
 p.answer { text-align: left; color: #303d5d; font-size: 16px; margin-bottom: 30px;}
-.skill { width: 24%; height: 100%; display: inline-block;}
-.placehold { background: green; height: 200px;}
+.skill { width: 24%; height: 200px; display: inline-block;}
+.placehold { height: 200px;}
 .abouttwo aside.span12 { margin-left: 0;}
 li.skill { height: 35% !important; width: 23% !important; display: inline-block;}
+.circles { width: 100%; display: block; clear: both; }
+aside.span8 aside.span6:first-of-type { margin-left: 0;}
+aside.span8 aside.span6 { margin-top: 15px;}
 
-
-
+ul.bargraph li  { height: 30px; width: 100%; list-style: none; display: block; position: relative;}
+ul.bargraph li span.bartitle { width: 30%; position: absolute; left: 0;}
+ul.bargraph li span.bartitle p { font-size: 18px; line-height: 30px; text-align: right; font-weight: bold; color: #303d5d; }
+ul.bargraph li span.bar { width: 60%; height: 18px; position: absolute; left: 33%; display: inline-block; margin: 6px 0;}
+ul.bargraph li span.bar span.bar10 { background: #ef583b; width: 10%; height: 100%; display:block;}
+ul.bargraph li span.bar span.bar20 { background: #ef583b; width: 20%; height: 100%; display:block;}
+ul.bargraph li span.bar span.bar30 { background: #ef583b; width: 30%; height: 100%; display:block;}
+ul.bargraph li span.bar span.bar40 { background: #ef583b; width: 40%; height: 100%; display:block;}
+ul.bargraph li span.bar span.bar50 { background: #ef583b; width: 50%; height: 100%; display:block;}
+ul.bargraph li span.bar span.bar60 { background: #ef583b; width: 60%; height: 100%; display:block;}
+ul.bargraph li span.bar span.bar70 { background: #ef583b; width: 70%; height: 100%; display:block;}
+ul.bargraph li span.bar span.bar80 { background: #ef583b; width: 80%; height: 100%; display:block;}
+ul.bargraph li span.bar span.bar90 { background: #ef583b; width: 90%; height: 100%; display:block;}
+ul.bargraph li span.bar span.bar100 { background: #ef583b; width: 100%; height: 100%; display:block;}
 
 
 
