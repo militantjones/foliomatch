@@ -125,7 +125,7 @@ section.aboutme { background: url('../img/aboutme.background.png') no-repeat cen
 	.aboutteam {float:none; width:100%;}
 }
 
-/* used on experience overview pages */
+/* used on experience and project overview pages */
 .widecentersection { margin: 0 10px 20px 10px; text-align: center; }
 .inlinebox { display: inline-block; width: 200px; height: 200px; background-color: #ffffff;margin:12px 10px; position: relative;}
 .inlinebox img { width: 100%; height:100%; filter: url(img/filters.svg#grayscale); filter: gray; -webkit-filter: grayscale(1); }
@@ -136,10 +136,18 @@ section.aboutme { background: url('../img/aboutme.background.png') no-repeat cen
 .inlinebox:hover .inlineboxtitlelarge {color: #ffffff;}
 .inlineboxtitlesmall { text-align: left; vertical-align: top; font-size: 12px; color: #242C48; font-family: helvetica, sans-serif; margin-left:10px;}
 .inlinebox:hover .inlineboxtitlesmall {color: #ffffff;}
+.add { background-color: #dddddd; }
+.addblueplus {position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
+.addblueplus img {width: 100%; height: 100%;}
+.add:hover { background-color: #f45643; }
+.add:hover .addblueplus { display: none; }
+.showhide .off { display: none; }
+.showhide .on { width: 20px; height: 20px; position: absolute; top: 2px; right:2px; filter: none; -webkit-filter: grayscale(0);}
 .experiencesviewoptions {width: 80%; text-align: right; vertical-align: top; font-size: 14px; color: #242C48; font-family: helvetica, sans-serif; text-decoration: none; margin: 10px auto 10px auto;}
 .experiencesviewoptions a { color: #242C48; text-decoration: none;}
 .experiencesviewoptions a:hover { color: #f45643; text-decoration: none;}
 .experiencesviewoptions .active { color: #f45643; text-decoration: none; }
+
 @media only screen and (max-width: 460px) {
 	.widecentersection {margin: 0 5px 20px 5px;}
 	.inlinebox { width: 140px; height:140px; margin: 4px 3px;}
@@ -163,14 +171,46 @@ section.timeline { position: relative; width: 100%; bottom: 0px; overflow-x: hid
 .vidbox { height: 280px; width: 100%; background: #303d5d;}
 .single-img { height: 120px; width: 100%; background: #303d5d; }
 
+/* about me public */
+.aboutone, .abouttwo, .aboutthree { margin: 25px auto; width: 90% !important; height: 90%;}
+.above { height: 55% !important; width: 100%; margin: 0;}
+.below { height: 200px; display: block;}
+div.aboutpic { background: #303d5d; width: 20% !important; float: left;}
 
+div.aboutinfo { width: 55% !important; float: left; color: #303d5d; text-align: left; padding-left: 20px;}
+div.aboutbox { width: 20% !important; float: left;}
+div.box { height: 112px; width: 112px; background: #000000; margin: 0 auto;}
 
+div.below { text-align: left; color: #303d5d; }
+.below .span6 ul { margin: 0; padding: 0;}
+.below .span6 ul li { list-style: none; margin: 0; padding: 0;}
 
+.abouttwo div.above .span4 { height: auto !important; }
+.test { background: aqua;}
+h4.question { color: #f0593c;  text-align: left; font-size: 20px;}
+p.answer { text-align: left; color: #303d5d; font-size: 16px; margin-bottom: 30px;}
+.skill { width: 24%; height: 200px; display: inline-block;}
+.placehold { height: 200px;}
+.abouttwo aside.span12 { margin-left: 0;}
+li.skill { height: 35% !important; width: 23% !important; display: inline-block;}
+.circles { width: 100%; display: block; clear: both; }
+aside.span8 aside.span6:first-of-type { margin-left: 0;}
+aside.span8 aside.span6 { margin-top: 15px;}
 
-
-
-
-
+ul.bargraph li  { height: 30px; width: 100%; list-style: none; display: block; position: relative;}
+ul.bargraph li span.bartitle { width: 30%; position: absolute; left: 0;}
+ul.bargraph li span.bartitle p { font-size: 18px; line-height: 30px; text-align: right; font-weight: bold; color: #303d5d; }
+ul.bargraph li span.bar { width: 60%; height: 18px; position: absolute; left: 33%; display: inline-block; margin: 6px 0;}
+ul.bargraph li span.bar span.bar10 { background: #ef583b; width: 10%; height: 100%; display:block;}
+ul.bargraph li span.bar span.bar20 { background: #ef583b; width: 20%; height: 100%; display:block;}
+ul.bargraph li span.bar span.bar30 { background: #ef583b; width: 30%; height: 100%; display:block;}
+ul.bargraph li span.bar span.bar40 { background: #ef583b; width: 40%; height: 100%; display:block;}
+ul.bargraph li span.bar span.bar50 { background: #ef583b; width: 50%; height: 100%; display:block;}
+ul.bargraph li span.bar span.bar60 { background: #ef583b; width: 60%; height: 100%; display:block;}
+ul.bargraph li span.bar span.bar70 { background: #ef583b; width: 70%; height: 100%; display:block;}
+ul.bargraph li span.bar span.bar80 { background: #ef583b; width: 80%; height: 100%; display:block;}
+ul.bargraph li span.bar span.bar90 { background: #ef583b; width: 90%; height: 100%; display:block;}
+ul.bargraph li span.bar span.bar100 { background: #ef583b; width: 100%; height: 100%; display:block;}
 
 
 
