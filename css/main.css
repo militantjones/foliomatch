@@ -157,6 +157,9 @@ section.aboutme { background: url('../img/aboutme.background.png') no-repeat cen
 	.inlineboxtitlesmall { font-size: 9px; margin: 0px 5px 5px 5px; position: relative; top: -5px;}
 }
 
+.fixedfooter {position:fixed;bottom:0; width:100%;}
+.cleardiv {clear:both; height: 60px;}
+
 /* timeline */
 .events { background: url(../img/blue-tile.jpg) repeat-y top center; }
 section.timeline { position: relative; width: 100%; bottom: 0px; overflow-x: hidden; }
