@@ -54,6 +54,7 @@ section.contactus { background: url('../img/home.slide.1.jpg') no-repeat center 
 section.profileSettings { background: url('../img/proflieSettings.background.png') no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover;-o-background-size: cover; background-size: cover; top: 0%; }
 section.updateProfile { background: url('../img/proflieSettings.background.png') no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover;-o-background-size: cover; background-size: cover; top: 0%; }
 section.aboutme { background: url('../img/aboutme.background.png') no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover;-o-background-size: cover; background-size: cover; top: 0%; }
+	
 	section.aboutme .card { background-color: rgba(47,62,90,.9); padding: 10px 15px; }
 		section.aboutme .card.top { margin-top: 40px; }
 			section.aboutme .card.top .avatarContainer { background-color: #ddd; overflow: hidden; }
