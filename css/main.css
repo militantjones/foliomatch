@@ -179,7 +179,7 @@ section.timeline { position: relative; width: 100%; bottom: 0px; overflow-x: hid
 .aboutone, .abouttwo, .aboutthree { margin: 25px auto; width: 90% !important; height: 90%;}
 .above { height: 55% !important; width: 100%; margin: 0;}
 .below { height: 200px; display: block;}
-div.aboutpic { background: #303d5d; width: 20% !important; float: left;}
+div.aboutpic { width: 20% !important; float: left;}
 
 div.aboutinfo { width: 55% !important; float: left; color: #303d5d; text-align: left; padding-left: 20px;}
 div.aboutbox { width: 20% !important; float: left;}
@@ -191,7 +191,7 @@ div.below { text-align: left; color: #303d5d; }
 
 .abouttwo div.above .span4 { height: auto !important; }
 .test { background: aqua;}
-h4.question { color: #f0593c;  text-align: left; font-size: 20px;}
+h4.question { color: #f0593c;  text-align: left; font-size: 20px; clear: both;}
 p.answer { text-align: left; color: #303d5d; font-size: 16px; margin-bottom: 30px;}
 .skill { width: 24%; height: 200px; display: inline-block;}
 .placehold { height: 200px;}
@@ -201,9 +201,9 @@ li.skill { height: 35% !important; width: 23% !important; display: inline-block;
 aside.span8 aside.span6:first-of-type { margin-left: 0;}
 aside.span8 aside.span6 { margin-top: 15px;}
 
-ul.bargraph li  { height: 30px; width: 100%; list-style: none; display: block; position: relative;}
+ul.bargraph li  { height: 40px; width: 100%; list-style: none; display: block; position: relative;}
 ul.bargraph li span.bartitle { width: 30%; position: absolute; left: 0;}
-ul.bargraph li span.bartitle p { font-size: 18px; line-height: 30px; text-align: right; font-weight: bold; color: #303d5d; }
+ul.bargraph li span.bartitle p { font-size: 18px; line-height: 40px; text-align: right; font-weight: bold; color: #303d5d; }
 ul.bargraph li span.bar { width: 60%; height: 18px; position: absolute; left: 33%; display: inline-block; margin: 6px 0;}
 ul.bargraph li span.bar span.bar10 { background: #ef583b; width: 10%; height: 100%; display:block;}
 ul.bargraph li span.bar span.bar20 { background: #ef583b; width: 20%; height: 100%; display:block;}
@@ -237,5 +237,28 @@ ul.bargraph li span.bar span.bar100 { background: #ef583b; width: 100%; height: 
 .projectpic:hover .pplabel { background: #ef583b;}
 .imgbox { height: 72px; width: 72px; border: 1px solid #000;}
 .pplabel { width: 74px; line-height: 16px; font-size: 8px; color: #fff; margin-top: 4px; text-align: center; background: #303d5d;}
+
+
+/* edit about me */
+.editthis { float: right;}
+.radio[type="radio"] { -webkit-appearance: none; border: 3px solid #ef583b; border-radius: 15px; height: 26px; width: 26px; float: left; background-color: #fff; margin: 0 40px 0 0 ;}
+.radio[type="radio"]:checked { background-color: #ef583b;}
+.textedit[type="text"] { float: left;}
+ul.descwords { margin: 0;}
+.descwords li { border: 1px solid #000; width: 50%; line-height: 26px; list-style-position:inside; margin: 0; text-align: left; padding: 0 0 0 10px; border-bottom: none;}
+.descwords li:last-of-type { border-bottom: 1px solid #000;}
+.descwords li.added { list-style: circle; list-style-position:inside;}
+.bar ul { margin: 0;}
+.bar ul li.radio { height: 26px; width: 26px; float: left; margin: 0 40px 0 0 ; color: #ef583b; font-size: 16px; font-weight: bold; padding: 0;}
+/*.circle-prof { width: 80px; margin: -187px 0 0 -80px; display: block;}
+.placehold img { display: block;} */
+
+
+
+
+
+
+
+
 
 
