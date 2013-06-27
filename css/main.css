@@ -217,7 +217,7 @@ ul.bargraph li span.bar span.bar90 { background: #ef583b; width: 90%; height: 10
 ul.bargraph li span.bar span.bar100 { background: #ef583b; width: 100%; height: 100%; display:block;}
 
 /* edit project */
-.edithead { height: 110px; width: 100%; border-bottom: 18px solid #303d5d; position: relative; }
+.edithead { height: 110px; width: 100%; border-bottom: 18px solid #303d5d; position: fixed; background: #fff; z-index: 999; }
 .editfoot { height: 64px; width: 100%; }
 .editoptions { height: 70px; width: 315px; background: #303d5d; display: block; top: 84px; left: 50%; margin-left: -158px; position: absolute; padding: 16px 11px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
 .editoptions li { list-style: none; display: inline-block; width: 40px; margin-right: 10px; }
