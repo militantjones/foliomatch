@@ -34,11 +34,14 @@ section.hero footer ul.social { clear: right; right: 24px; position: relative; }
 
 
 section.content { margin-top: 60px; }
+section.content.collapse-margin { margin-top: 12px; }
 .wrapper { padding: 0px 12px; }
 	section.content .wrapper { padding: 0px 12px; }
+		section.content .wrapper h2 { color: #343c5d; font-size: 24.5px; }
 		section.content .wrapper h3 { color: #f0583c; }
 			section.content .wrapper h3>button { background-color: #f0583c; color: #fff; text-shadow: none; border: none; margin-left: 12px; margin-top: -5px; }
 		section.content .wrapper strong { color: #1f2c4f; }
+		section.content .wrapper table input[type="checkbox"] { margin: 0px; }
 		/* add student profile project content */
 		.accordion-group { margin-bottom: 0px; border: none; }
 			.accordion-group ul { margin: 0px; background-color: #303e5b; }
@@ -73,16 +76,22 @@ section.content { margin-top: 60px; }
 			#projectDetail aside .relatedProject { margin: 12px 0px; }
 			/* project settings */
 			.projectSettings { margin-bottom: 24px; }
+			#reorderProjects .modal-header { background-color: #343c5d; }
+			#reorderProjects .modal-header .btn { color: #f0583c; }
+			#reorderProjects .modal-header .btn-link { color: #fff; text-decoration: none; text-shadow: none; }
+			#reorderProjects .modal-body .reorderModule { padding: 10px 10px 10px 72px; border: 1px solid #000; margin: 12px 0px; position: relative;}
+				#reorderProjects .modal-body .reorderModule .grip { position: absolute; top:50%; left:24px; margin-top: -8px; }
+				#reorderProjects .modal-body .reorderModule p { margin: 0px; }
+			/* student dashboard */
+			section.content .wrapper ul.nav-stacked li { cursor: pointer; }
+			section.content .wrapper ul.nav-stacked li a { color: #f0583c; }
+			section.content .wrapper ul.nav-stacked li a:hover { background-color: #343c5d; color: #fff; }
+			section.content .wrapper ul.nav-stacked li.active a { background-color: #343c5d; color: #fff; }
 
-#reorderProjects .modal-header { background-color: #343c5d; }
-#reorderProjects .modal-header .btn { color: #f0583c; }
-#reorderProjects .modal-header .btn-link { color: #fff; text-decoration: none; text-shadow: none; }
-#reorderProjects .modal-body .reorderModule { padding: 10px 10px 10px 72px; border: 1px solid #000; margin: 12px 0px; position: relative;}
-	#reorderProjects .modal-body .reorderModule .grip { position: absolute; top:50%; left:24px; margin-top: -8px; }
-	#reorderProjects .modal-body .reorderModule p { margin: 0px; }
 
-
-
+section.content form .row-fluid { padding: 12px 0px; }
+section.content form .row-fluid.extras { display:none; }
+section.content form .row-fluid .btn-link { color: #f0583c; }
 .input-append input { border-radius: 0px; }
 .input-append .btn:last-child { background-color: #f0583c; color: #fff; text-shadow: none; padding: 4px 36px; border-radius: 0px; }
 	.input-append .btn:last-child:hover { background-color: #1f2c4f; color: #fff; }
