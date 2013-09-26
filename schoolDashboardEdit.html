@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>FolioMatch Welcome</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- javascript -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $( ".options" ).click(function() {
+        var state = $('.options').text();
+        $( ".extras" ).toggle();
+        if(state == "More Options"){
+          $('.options').html("Less Options");
+        };
+        if(state == "Less Options"){
+          $('.options').html("More Options");
+        };
+        
+      });
+    });
+    </script>
+
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="../assets/ico/favicon.png">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <button type="button" class="btn btn-primary btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="./index.html"><span>FolioMatch</span></a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="">
+                <a href="">Dashboard</a>
+              </li>
+              <li class="">
+                <a href="">My Profile</a>
+              </li>
+              <li class="active">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Lauren Mayberry</a>
+              </li>
+              <li class="">
+                <a href="">icon</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section class="content collapse-margin">
+      <div class="container-fluid">
+        <div class="row-fluid">
+          <div class="span3"></div>
+          <div class="span8"><div class="wrapper"><h2>School Dashboard</h2></div></div>
+        </div>
+        <div class="row-fluid">
+          <div class="span3">
+            <div class="wrapper">
+              <ul class="nav nav-tabs nav-stacked">
+                <li class="active text-center"><a>Edit Profile</a></li>
+                <li class="text-center"><a>Edit Scholarships</a></li>
+                <li class="text-center"><a>Search</a></li>
+                <li class="text-center"><a>Inbox</a></li>
+                <li class="text-center"><a>Matches</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="span9">
+            <div class="wrapper">
+              <div class="">
+                <fieldset>
+                  <form>
+                  <div class="row-fluid">
+                    <div class="span4">
+                      <label>Name</label>
+                      <div class="controls controls-row">
+                        <input class="span11" type="text" placeholder="">
+                      </div>
+                      <label>Location</label>
+                      <div class="controls controls-row">
+                        <input class="span11" type="text" placeholder="">
+                      </div>
+                      <div class="controls controls-row">
+                        <input class="span7" type="text" placeholder="">
+                        <select class="span4"></select>
+                      </div>
+                    </div>
+                    <div class="span4">
+                      <label>Mission Statement</label>
+                      <div class="controls controls-row">
+                        <textarea class="span11" rows="4"></textarea>
+                      </div>
+                    </div>
+                    <div class="span4">
+                      <label>Event Listing</label>
+                      <div class="controls controls-row">
+                        <input class="span8" type="text" placeholder="name">
+                        <input class="span3" type="text" placeholder="mm/yy">
+                      </div>
+                      <div class="controls controls-row">
+                        <input class="span8" type="text" placeholder="name">
+                        <input class="span3" type="text" placeholder="mm/yy">
+                      </div>
+                      <a href="">add more history</a>
+                    </div>
+                  </div>
+                  <div class="row-fluid">
+                    <div class="span4">
+                      <label>Degree Offerings</label>
+                      <div class="controls controls-row">
+                        <ul id="projectAssetList" class="unstyled">
+                          <li><a href=""><img class="REPLACE WITH SRC AND REMOVE STYLE" style="display:inline-block;height:16px;width:16px;background-color:red;border-radius:8px;" /></a>degree name</li>
+                        </ul>
+                        <input class="span11" type="text" placeholder="">
+                        <a href="">add degree</a>
+                      </div>
+                    </div>
+                    <div class="span4">
+                      <label>Extra-Curriculars</label>
+                      <div class="controls controls-row">
+                        <ul id="projectAssetList" class="unstyled">
+                          <li><a href=""><img class="REPLACE WITH SRC AND REMOVE STYLE" style="display:inline-block;height:16px;width:16px;background-color:red;border-radius:8px;" /></a>event</li>
+                        </ul>
+                        <input class="span11" type="text" placeholder="">
+                        <a href="">add extra-curriculars</a>
+                      </div>
+                    </div>
+                    <div class="span4">
+                      <label>Social Media Link</label>
+                      <div class="controls controls-row">
+                        <input class="span11" type="text" placeholder="facebook">
+                      </div>
+                      <div class="controls controls-row">
+                        <input class="span11" type="text" placeholder="twitter">
+                      </div>
+                      <div class="controls controls-row">
+                        <input class="span11" type="text" placeholder="linkedin">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row-fluid">
+                    <div class="span4">
+                      <label>Photos</label>
+                      <ul class="unstyled inline">
+                        <li><img src="DELETE INLINE STYLE" style="background-color:#ddd;width:50px;height:50px;"</li>
+                        <li><img src="DELETE INLINE STYLE" style="background-color:#ddd;width:50px;height:50px;"</li>
+                      </ul>
+                      <button class="btn btn-primary pull-right">Add Photos</button>
+                    </div>
+                    <div class="span4">
+                      <label>Videos</label>
+                      <ul class="unstyled inline">
+                        <li><img src="DELETE INLINE STYLE" style="background-color:#ddd;width:50px;height:50px;"</li>
+                        <li><img src="DELETE INLINE STYLE" style="background-color:#ddd;width:50px;height:50px;"</li>
+                      </ul>
+                      <button class="btn btn-primary pull-right">Add Videos</button>                
+                    </div>
+                  </div>
+                  <div class="row-fluid">
+                    <div class="span7">
+                      <button class="btn">Clear Search</button>
+                      <button class="btn btn-primary">Update</button>
+                    </div>
+                  </div>
+                  </form>
+                </fieldset>
+              </div>
+              <hr/>
+              <div class="row-fluid">
+                <div class="span12">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Reorder Modal -->
+    <div id="reorderProjects" class="modal hide fade" tabindex="-1" role="dialog">
+      <div class="modal-header text-right">
+        <button class="btn btn">Save Order</button>
+        <button class="btn btn-link" data-dismiss="modal" aria-hidden="true">Cancel</button>
+      </div>
+      <div class="modal-body">
+        <section class="reorderModule">
+          <i class="icon-align-justify grip"></i>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat.</p>
+        </section>
+        <section class="reorderModule">
+          <i class="icon-align-justify grip"></i>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat.</p>
+        </section>
+      </div>
+      
+    </div>
+  
+  </body>
+
+</html>
