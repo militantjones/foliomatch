@@ -43,13 +43,13 @@ section.content.collapse-margin { margin-top: 12px; }
 		section.content .wrapper strong { color: #1f2c4f; }
 		section.content .wrapper table input[type="checkbox"] { margin: 0px; }
 		/* add student profile project content */
-		.accordion-group { margin-bottom: 0px; border: none; }
-			.accordion-group ul { margin: 0px; background-color: #303e5b; }
-				.accordion-group ul li	{ display: block; height: 36px; line-height: 36px; text-indent: 20px; color: #fff; white-space: nowrap; cursor: pointer; }
-				.accordion-group ul li.active { background-color: #000; text-indent: 24px; }
-					.accordion-group ul li.active:before { content:" "; display:block; height:36px; width: 8px; background-color: #f55643; position: absolute; }
-		.accordion-inner { padding: 0px; border: none; }
-		.accordion-heading .accordion-toggle { text-decoration: none; color: #fff; background-color: #181f2d; background-image: -webkit-gradient(linear, left top, left bottom, from(#2f3d59), to(#010101)); background-image: -webkit-linear-gradient(top, #2f3d59, #010101); background-image: -moz-linear-gradient(top, #2f3d59, #010101); background-image: -o-linear-gradient(top, #2f3d59, #010101); background-image: -ms-linear-gradient(top, #2f3d59, #010101); background-image: linear-gradient(top, #2f3d59, #010101); filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#2f3d59', EndColorStr='#010101'); }
+		.nav-accordion .accordion-group { margin-bottom: 0px; border: none; }
+			.nav-accordion .accordion-group ul { margin: 0px; background-color: #303e5b; }
+				.nav-accordion .accordion-group ul li	{ display: block; height: 36px; line-height: 36px; text-indent: 20px; color: #fff; white-space: nowrap; cursor: pointer; }
+				.nav-accordion .accordion-group ul li.active { background-color: #000; text-indent: 24px; }
+					.nav-accordion .accordion-group ul li.active:before { content:" "; display:block; height:36px; width: 8px; background-color: #f55643; position: absolute; }
+		.nav-accordion .accordion-inner { padding: 0px; border: none; }
+		.nav-accordion .accordion-heading .accordion-toggle { text-decoration: none; color: #fff; background-color: #181f2d; background-image: -webkit-gradient(linear, left top, left bottom, from(#2f3d59), to(#010101)); background-image: -webkit-linear-gradient(top, #2f3d59, #010101); background-image: -moz-linear-gradient(top, #2f3d59, #010101); background-image: -o-linear-gradient(top, #2f3d59, #010101); background-image: -ms-linear-gradient(top, #2f3d59, #010101); background-image: linear-gradient(top, #2f3d59, #010101); filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#2f3d59', EndColorStr='#010101'); }
 		#projectAssetList li { line-height: 24px; }
 		#projectAssetList li img { margin-right: 6px; }
 		section.content .wrapper .projectView { margin: 24px 0px; position: relative;}
@@ -87,6 +87,15 @@ section.content.collapse-margin { margin-top: 12px; }
 			section.content .wrapper ul.nav-stacked li a { color: #f0583c; }
 			section.content .wrapper ul.nav-stacked li a:hover { background-color: #343c5d; color: #fff; }
 			section.content .wrapper ul.nav-stacked li.active a { background-color: #343c5d; color: #fff; }
+			/* school manage list collapsables */
+			.manage-list-accordion .accordion-group { margin-bottom: 0px; border: none; }
+			.manage-list-accordion .accordion-group ul { margin: 0px; background-color: #303e5b; }
+				.manage-list-accordion .accordion-group ul li	{ display: block; height: 36px; line-height: 36px; text-indent: 20px; color: #fff; white-space: nowrap; cursor: pointer; }
+				.manage-list-accordion .accordion-group ul li.active { background-color: #000; text-indent: 24px; }
+					.manage-list-accordion .accordion-group ul li.active:before { content:" "; display:block; height:36px; width: 8px; background-color: #f55643; position: absolute; }
+			.manage-list-accordion .accordion-inner { padding: 0px; border: none; }
+			.manage-list-accordion .accordion-heading .accordion-toggle { text-decoration: none; color: #343c62; font-weight: bold; background-color: #d6d8df; height: 32px; line-height: 32px; }
+
 
 
 section.content form .row-fluid { padding: 12px 0px; }

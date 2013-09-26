@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>FolioMatch Welcome</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- javascript -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $( ".options" ).click(function() {
+        var state = $('.options').text();
+        $( ".extras" ).toggle();
+        if(state == "More Options"){
+          $('.options').html("Less Options");
+        };
+        if(state == "Less Options"){
+          $('.options').html("More Options");
+        };
+        
+      });
+    });
+    </script>
+
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="../assets/ico/favicon.png">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <button type="button" class="btn btn-primary btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="./index.html"><span>FolioMatch</span></a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="">
+                <a href="">Dashboard</a>
+              </li>
+              <li class="">
+                <a href="">My Profile</a>
+              </li>
+              <li class="active">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Lauren Mayberry</a>
+              </li>
+              <li class="">
+                <a href="">icon</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section class="content collapse-margin">
+      <div class="container-fluid">
+        <div class="row-fluid">
+          <div class="span3"></div>
+          <div class="span8"><div class="wrapper"><h2>Manage List</h2></div></div>
+        </div>
+        <div class="row-fluid">
+          <div class="span3">
+            <div class="wrapper">
+              <ul class="nav nav-tabs nav-stacked">
+                <li class="text-center"><a>Edit Profile</a></li>
+                <li class="text-center"><a>Edit Scholarships</a></li>
+                <li class="text-center"><a>Search</a></li>
+                <li class="text-center"><a>Inbox</a></li>
+                <li class="active text-center"><a>Manage List</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="span9">
+            <div class="wrapper">
+              <div class="">
+                <div class="accordion manage-list-accordion" id="accordionManageList">
+                  <div class="accordion-group">
+                    <div class="accordion-heading">
+                      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+                        High School Seniors
+                        <div class="pull-right">
+                          <button class="btn btn-info">Edit</button>
+                          <button class="btn btn-primary">Export</button>
+                        </div>
+                      </a>
+                    </div>
+                    <div id="collapseOne" class="accordion-body collapse in">
+                      <div class="accordion-inner">
+                        <div class="wrapper">
+                          <table class="table">
+                            <thead>
+                              <tr>
+                                <th></th>
+                                <th>Name</th>
+                                <th>Gender</th>
+                                <th>Location</th>
+                                <th>GPA</th>
+                                <th>SAT</th>
+                                <th>ACT</th>
+                                <th>Interests</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td><input type="checkbox"></td>
+                                <td>Martha May</td>
+                                <td>Male</td>
+                                <td>Missouri</td>
+                                <td>4.0</td>
+                                <td>2400</td>
+                                <td>33</td>
+                                <td>Technology</td>
+                              </tr>
+                              <tr>
+                                <td><input type="checkbox"></td>
+                                <td>Matt Martin</td>
+                                <td>Female</td>
+                                <td>Missouri</td>
+                                <td>4.0</td>
+                                <td>2400</td>
+                                <td>33</td>
+                                <td>Technology</td>
+                              </tr>
+                              <tr>
+                                <td><input type="checkbox"></td>
+                                <td>Marcy Marene</td>
+                                <td>Female</td>
+                                <td>Missouri</td>
+                                <td>4.0</td>
+                                <td>2400</td>
+                                <td>33</td>
+                                <td>Technology</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-group">
+                    <div class="accordion-heading">
+                      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+                        Prospective Students
+                        <div class="pull-right">
+                          <button class="btn btn-info">Edit</button>
+                          <button class="btn btn-primary">Export</button>
+                        </div>
+                      </a>
+                    </div>
+                    <div id="collapseTwo" class="accordion-body collapse">
+                      <div class="accordion-inner">
+                        <div class="wrapper">
+                          <table class="table">
+                            <thead>
+                              <tr>
+                                <th></th>
+                                <th>Name</th>
+                                <th>Gender</th>
+                                <th>Location</th>
+                                <th>GPA</th>
+                                <th>SAT</th>
+                                <th>ACT</th>
+                                <th>Interests</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td><input type="checkbox"></td>
+                                <td>Martha May</td>
+                                <td>Male</td>
+                                <td>Missouri</td>
+                                <td>4.0</td>
+                                <td>2400</td>
+                                <td>33</td>
+                                <td>Technology</td>
+                              </tr>
+                              <tr>
+                                <td><input type="checkbox"></td>
+                                <td>Matt Martin</td>
+                                <td>Female</td>
+                                <td>Missouri</td>
+                                <td>4.0</td>
+                                <td>2400</td>
+                                <td>33</td>
+                                <td>Technology</td>
+                              </tr>
+                              <tr>
+                                <td><input type="checkbox"></td>
+                                <td>Marcy Marene</td>
+                                <td>Female</td>
+                                <td>Missouri</td>
+                                <td>4.0</td>
+                                <td>2400</td>
+                                <td>33</td>
+                                <td>Technology</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr/>
+                  
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Reorder Modal -->
+    <div id="reorderProjects" class="modal hide fade" tabindex="-1" role="dialog">
+      <div class="modal-header text-right">
+        <button class="btn btn">Save Order</button>
+        <button class="btn btn-link" data-dismiss="modal" aria-hidden="true">Cancel</button>
+      </div>
+      <div class="modal-body">
+        <section class="reorderModule">
+          <i class="icon-align-justify grip"></i>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat.</p>
+        </section>
+        <section class="reorderModule">
+          <i class="icon-align-justify grip"></i>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat.</p>
+        </section>
+      </div>
+      
+    </div>
+  
+  </body>
+
+</html>
