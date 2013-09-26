@@ -96,3 +96,5 @@ section.content form .row-fluid .btn-link { color: #f0583c; }
 .input-append .btn:last-child { background-color: #f0583c; color: #fff; text-shadow: none; padding: 4px 36px; border-radius: 0px; }
 	.input-append .btn:last-child:hover { background-color: #1f2c4f; color: #fff; }
 
+/*misc*/
+.text-orange { color:#f0583c; }
