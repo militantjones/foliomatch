@@ -107,6 +107,19 @@ section.content.collapse-margin { margin-top: 12px; }
 					.manage-list-accordion .accordion-group ul li.active:before { content:" "; display:block; height:36px; width: 8px; background-color: #f55643; position: absolute; }
 			.manage-list-accordion .accordion-inner { padding: 0px; border: none; }
 			.manage-list-accordion .accordion-heading .accordion-toggle { text-decoration: none; color: #343c62; font-weight: bold; background-color: #d6d8df; height: 32px; line-height: 32px; }
+			/* school about page */
+			.questions fieldset { margin-top: 20px;  }
+			.questions p.recent { font-weight: bold; }
+				.questions p.recent span.by { font-style: italic; font-weight: normal; }
+			.statBox header { border-bottom: 2px solid #303e5b; }
+				.statBox header h4 { font-weight: normal; margin-bottom: 0px; text-transform: uppercase; }
+				.statBox .data { font-size: 40px; padding: 24px 0px 12px 0px; }
+				.statBox dl { margin-top: 0px; }
+					.statBox dl dt { font-weight: normal; font-style: italic; font-size: 16px; }
+			.split-2 { columns:2; -webkit-columns:2; /* Safari and Chrome */ -moz-columns:2; /* Firefox */ }
+			dl.unstyled { color: #303e5b; }
+			dl.unstyled dd { margin-left: 0px; }
+
 
 .mediaContainer { background-color: #ddd; overflow: hidden; display: inline-block; margin-bottom: 10px; }
 	.mediaContainer img { width: 100%; }
