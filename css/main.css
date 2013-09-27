@@ -8,7 +8,7 @@ body { padding-top: 40px; }
 .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus { color: #f45643; }
 .navbar .btn-navbar { margin-top: 16px; }
 
-
+/* student profile */
 section.hero { position: relative; width: 100%; bottom: 0px; }
 section.hero header { background: url('../img/Lauren-Mayberry.jpg') no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover;-o-background-size: cover; background-size: cover; top: 0%; height: 300px; }
 section.hero section { border-bottom: 4px solid #000; border-top: 4px solid #000; position: relative; padding: 10px 0px 10px 250px;}
@@ -23,14 +23,26 @@ section.hero footer ul.nav li.active { background-color: #f0583c; }
 section.hero footer ul.nav > li > a:hover, .nav > li > a:focus { background-color: #f0583c; }
 section.hero footer ul > li a, section.hero footer ul > li a:hover, footer ul > li a:focus, section.hero footer ul > li a:link { color: #fff; text-decoration: none; }
 			section.hero footer ul > li a:hover { color: #fff; }
-section.hero footer ul.social { clear: right; right: 24px; position: relative; }
-	section.hero footer ul li a.social { display: block; height: 21px; width: 21px; margin-top: 8px; }
-	section.hero footer ul li a.facebook { background: transparent url('../img/facebook.png') no-repeat ; }
-		section.hero footer ul li a.facebook:hover { background: transparent url('../img/facebook_hover.png') no-repeat ; }
-	section.hero footer ul li a.twitter { background: transparent url('../img/twitter.png') no-repeat ; }
-		section.hero footer ul li a.twitter:hover { background: transparent url('../img/twitter_hover.png') no-repeat ; }
-	section.hero footer ul li a.linkedin { background: transparent url('../img/linkedin.png') no-repeat ; }
-		section.hero footer ul li a.linkedin:hover { background: transparent url('../img/linkedin_hover.png') no-repeat ; }
+section ul.social { clear: right; right: 24px; position: relative; }
+	section ul li a.social { display: block; height: 21px; width: 21px; margin-top: 8px; }
+	section ul li a.facebook { background: transparent url('../img/facebook.png') no-repeat ; }
+		section ul li a.facebook:hover { background: transparent url('../img/facebook_hover.png') no-repeat ; }
+	section ul li a.twitter { background: transparent url('../img/twitter.png') no-repeat ; }
+		section ul li a.twitter:hover { background: transparent url('../img/twitter_hover.png') no-repeat ; }
+	section ul li a.linkedin { background: transparent url('../img/linkedin.png') no-repeat ; }
+		section ul li a.linkedin:hover { background: transparent url('../img/linkedin_hover.png') no-repeat ; }
+/* school profile */
+section.schoolProfile section { padding: 10px 0px 10px 0px; border-bottom: 4px solid #000; border-top: 0px; }
+section.schoolProfile section h2 { font-size: 42px;font-weight: normal; color: #1f2c4f; display: inline-block; line-height: auto; margin: 0px; vertical-align: top; top: 0px; position: relative;}
+section.schoolProfile ul { margin: 10px 0 0 0; display: inline-block; }
+section.schoolProfile ul.nav { margin: 0 0 0 0; display: inline-block; position: absolute; bottom: 0px;}
+section.schoolProfile ul.nav li { width: 150px; display: inline-block; background-color: #1f2c4f; height: 30px; font-size: 12px; line-height: 30px; margin-left: -5px; padding-left: 0px; padding-right: 0px;}
+section.schoolProfile ul.nav li.active { background-color: #f0583c; } 
+section.schoolProfile ul.nav > li > a:hover, .nav > li > a:focus { background-color: #f0583c; }
+section.schoolProfile ul > li a, section.schoolProfile ul > li a:hover, section.schoolProfile ul > li a:focus, section.schoolProfile ul > li a:link { color: #fff; text-decoration: none; }
+			section.schoolProfile ul > li a:hover { color: #fff; }
+section.content.schoolProfileBody { margin-top: 30px; }
+section.content.schoolProfileBody ul.social { right:0px; }
 
 
 section.content { margin-top: 60px; }
@@ -96,7 +108,10 @@ section.content.collapse-margin { margin-top: 12px; }
 			.manage-list-accordion .accordion-inner { padding: 0px; border: none; }
 			.manage-list-accordion .accordion-heading .accordion-toggle { text-decoration: none; color: #343c62; font-weight: bold; background-color: #d6d8df; height: 32px; line-height: 32px; }
 
-
+.mediaContainer { background-color: #ddd; overflow: hidden; display: inline-block; margin-bottom: 10px; }
+	.mediaContainer img { width: 100%; }
+.mediaContainer.small { width:50px; height:50px; }
+.mediaContainer.large { width:100px; height:100px; }
 
 section.content form .row-fluid { padding: 12px 0px; }
 section.content form .row-fluid.extras { display:none; }
@@ -105,5 +120,8 @@ section.content form .row-fluid .btn-link { color: #f0583c; }
 .input-append .btn:last-child { background-color: #f0583c; color: #fff; text-shadow: none; padding: 4px 36px; border-radius: 0px; }
 	.input-append .btn:last-child:hover { background-color: #1f2c4f; color: #fff; }
 
+footer { margin: 24px 0px; }
+
 /*misc*/
 .text-orange { color:#f0583c; }
+.inline { display: inline;}
