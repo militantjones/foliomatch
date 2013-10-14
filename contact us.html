@@ -15,6 +15,21 @@
     <!-- javascript -->
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $( ".options" ).click(function() {
+        var state = $('.options').text();
+        $( ".extras" ).toggle();
+        if(state == "More Options"){
+          $('.options').html("Less Options");
+        };
+        if(state == "Less Options"){
+          $('.options').html("More Options");
+        };
+        
+      });
+    });
+    </script>
 
 
     <!-- Fav and touch icons -->
@@ -26,9 +41,9 @@
   </head>
 
   <body>
-    <nav class="navbar">
+    <nav class="navbar navbar-fixed-top">
       <div class="navbar-inner">
-        <div class="container">
+        <div class="container-fluid">
           <button type="button" class="btn btn-primary btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -38,19 +53,16 @@
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li class="">
-                <a href="">home</a>
+                <a href="">Dashboard</a>
               </li>
               <li class="">
-                <a href="">for students</a>
+                <a href="">My Profile</a>
+              </li>
+              <li class="active">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Lauren Mayberry</a>
               </li>
               <li class="">
-                <a href="">for educators</a>
-              </li>
-              <li class="">
-                <a href="">about us</a>
-              </li>
-              <li class="">
-                <a href="">login</a>
+                <a href="">icon</a>
               </li>
             </ul>
           </div>
@@ -81,7 +93,7 @@
           </form>
         </div>
       </div>
-    </section>
+    </section>  
     <footer>
       <ul class="inline pull-right">
         <li><a href="#" class="social facebook"></a></li>
@@ -96,7 +108,6 @@
         <li class="muted">&copy;2013 foliomatch llc all rights reserved</li>
       </ul>
     </footer>
-
     <script>
 
       $(document).ready(function(){
@@ -108,7 +119,6 @@
 
       });
     </script>
-  
   </body>
 
 </html>
